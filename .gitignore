@@ -1,0 +1,81 @@
+# Credentials; keep only the empty environment template.
+.env
+.env.*
+!.env.example
+.envrc
+.direnv/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Local environments and Python tooling.
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Private subtitles, accounting, responses and persisted review decisions.
+/input/*
+!/input/.gitkeep
+/output/*
+!/output/.gitkeep
+/checkpoints/*
+!/checkpoints/.gitkeep
+/jobs/
+/benchmarks/
+/experiments/
+/calibrations/
+debug_responses/
+cost-ledger.json
+
+# Historical research documents contain private dialogue/provenance.
+/docs/QUALITY-BENCHMARK.md
+/docs/V1.1-EXPERIMENT-PLAN.md
+/docs/WP2-REVISION-EXPERIMENT.md
+/docs/REVISION-COST-CALIBRATION.md
+/docs/REVISION-COST-AUDIT.md
+/docs/REVISION-CALIBRATION-RESULTS.md
+
+# Logs, editor/temporary files and macOS metadata.
+logs/
+*.log
+*.tmp
+*.lock
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+._*
+__MACOSX/
+
+# Preserve the clone exclusions at any depth.
+input/
+output/
+jobs/
+checkpoints/
+
+# Allow only the audited empty root-directory markers.
+!/input/
+/input/*
+!/input/.gitkeep
+!/output/
+/output/*
+!/output/.gitkeep
+!/checkpoints/
+/checkpoints/*
+!/checkpoints/.gitkeep

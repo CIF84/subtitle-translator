@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "last_verified": "2026-10-11",
+  "currency": "USD",
+  "billing": "Standard synchronous Responses API, service_tier=default; no tools or regional processing",
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+    "https://developers.openai.com/api/docs/models/gpt-5.4",
+    "https://developers.openai.com/api/docs/pricing"
+  ],
+  "models": {
+    "gpt-5.4-mini": {
+      "input_per_million": "0.75",
+      "cached_input_per_million": "0.075",
+      "output_per_million": "4.50",
+      "max_output_tokens": 128000,
+      "context_window": 400000,
+      "structured_output": true,
+      "reasoning_effort": "none"
+    },
+    "gpt-5.4": {
+      "input_per_million": "2.50",
+      "cached_input_per_million": "0.25",
+      "output_per_million": "15.00",
+      "max_output_tokens": 128000,
+      "context_window": 272000,
+      "structured_output": true,
+      "reasoning_effort": "none"
+    }
+  }
+}

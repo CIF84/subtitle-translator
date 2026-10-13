@@ -1,0 +1,5 @@
+openai>=2.0,<3
+tiktoken>=0.9,<1
+pytest>=8,<10
+# Explicit SDK MockTransport dependency for reproducible offline tests.
+httpx>=0.28,<1

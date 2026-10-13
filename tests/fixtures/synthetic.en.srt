@@ -1,0 +1,25 @@
+1
+00:00:01,000 --> 00:00:03,000
+<i>JOHN: Hello, my friend.</i>
+- Are you coming?
+
+2
+00:00:03,100 --> 00:00:05,000
+[door slams]
+
+3
+00:00:05,100 --> 00:00:07,000
+♪ [gentle music] ♪
+
+4
+00:00:07,100 --> 00:00:09,000
+WOMAN: What the hell happened?
+
+5
+00:00:09,100 --> 00:00:11,000
+<b>[whispering]</b> Keep your voice down.
+
+6
+00:00:11,100 --> 00:00:13,000
+{\an8}London. Tomorrow morning.
+
